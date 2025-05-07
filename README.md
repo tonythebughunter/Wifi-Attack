@@ -1,4 +1,4 @@
-# HACKING WIFI NETWORKS USING AIRCRACK
+## HACKING WIFI NETWORKS USING AIRCRACK
 # lists the network adaptors available and their properties. Note the name of your network adaptor that support monitoring, e.g., wlan1:
     iwconfig
 # Change adaptor into monitor mode:
@@ -11,3 +11,6 @@
     airodump-ng -c <channel-no> -w <name-of-output-file> -d <mac-address> wlan1mon : 
 # Crack the password:
     aircrack-ng output-above.cap -w wordlist.txt
+
+# Alternatively
+    Use Wifite
